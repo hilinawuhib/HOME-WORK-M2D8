@@ -12,30 +12,67 @@
 
 
     <style>
-        h2,h4{
+        h2,h4,.pclass,p{
             text-align: center;
             margin-top: 50px;
+            margin-bottom: 50px;
 
         }
+        h5{
+            text-align: center;
+        }
+        .container{
+            width:100%
+        }
         .column-container1{
-            display: table;
+           
+             display: table;
             height:400px;
             background-color: green;
+            border: 2.5px solid black;
+            border-radius: 20px 0 0 20px;
            
         }
         .column-container2{
+        
             display: table;
              height:400px;
              background-color: rgb(58, 26, 201);
+             border-top: 2.5px solid black;
+             border-bottom: 2.5px solid black ;
            
         }
         .column-container3{
+
+           
             display: table;
             height:400px;
-            background-color: yellow;
+           border: 2.5px solid black;
+            border-radius: 0 20px 20px 0;
            
            
         }
+        .card-header{
+            text-align: center;
+            font-weight: 700;
+        }
+        .sub-container1{
+            background-color:rgb(211, 145, 122) ;
+            
+            
+        }
+        .sub-container2{
+            background-color: rgb(173, 173, 67);
+           
+
+        }
+        .sub-container3{
+           
+            background-color: yellow;
+
+        }
+       
+        
     </style>
   </head>
   <body>
@@ -55,25 +92,85 @@
             </div>
             </div>
           </nav>
-          <h2 >header</h2>
-          <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h4>
           <div class="container">
+          <h2 >Excercise 1</h2>
+          <p class="pclass">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed animi fugiat repellat odit rem? Excepturi, ab! Sunt nam eaque, laudantium facilis culpa eos enim voluptatem excepturi corrupti animi numquam! Saepe!</p> 
               <div class="row">
+                  <div class="col-lg-6 ">
               <div class="column-container1 d-flex">
-              <div class="col-6 ">
             One of three columns
           </div>
           </div>
           
+          <div class="col-lg-2 ">
           <div class="column-container2 d-flex">
-          <div class="col-2 ">
             One of three columns
           </div>
           </div>
+          <div class="col-lg-4">
           <div class="column-container3 d-flex">
-          <div class="col-4">
-            One of three columns
+              <div class="col-4">
+              <div class="sub-container1">
+             1
+                
+              </div>
+              </div>
+              <div class="col-4">
+              <div class="sub-container2">
+               2
+                
+              </div>
+              </div>
+              <div class="col-4">
+              <div class="sub-container3">
+              3
+                
+              </div>
+              </div>
+            
           </div>
+        </div>
+        </div>
+        <div class="container ">
+            <h2>Excercise 2</h2>
+            <p class ="pclass">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis nesciunt officiis architecto maiores similique dolores dolorem, non illo adipisci ut assumenda ipsam inventore ad culpa, consectetur asperiores alias commodi reprehenderit?</p>
+            <div class="card-container d-flex ">
+            <div class="card ">
+                <div class="card-header">
+                  Free
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">€0/month</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Sign up for free</a>
+                </div>
+              </div>
+            <div class="card-container d-flex">
+            <div class="card ">
+                <div class="card-header">
+                 pro
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">€15/month</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Get started</a>
+                </div>
+              </div>
+            <div class="card-container d-flex">
+            <div class="card ">
+                <div class="card-header">
+                 Enterprise
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">€29/month</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Contact us</a>
+                </div>
+              </div>
+              </div>
+           
+
+
         </div>
         </div>
         

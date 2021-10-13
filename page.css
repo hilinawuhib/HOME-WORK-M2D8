@@ -26,10 +26,9 @@ background-color: rgb(0, 132, 255);
     max-width: 40rem;
   }
   
-  #fBox{
+  .fBox{
     display: flex;
     flex-direction:column;
-    flex-wrap: wrap;
     align-content: flex-start;
   }
 

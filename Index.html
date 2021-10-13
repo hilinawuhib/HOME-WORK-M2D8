@@ -339,12 +339,12 @@
             <div class="container">
               <div class="row">
                 
-                <div class="d-flex col-md-8 mb-3 align-items-center boxing ">
+                <div class=" col-sm-12 col-md-8 mb-3 align-items-center boxing ">
          
 
                   <div class="card">
                     <h4>Page heading <small>secondary text</small></h4>
-                    <img src="flex.jpeg" class="card-img-top" alt="..." />
+                    <img src="http://placehold.it/750x300" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h4 class="card-title">Post title</h4>
                       <p class="card-text">
@@ -359,12 +359,11 @@
                     </div>
                   </div>
           
-                 </div>
-                 <div class="d-flex col-md-8 mb-3 align-items-center boxing ">
+                 
           
                   <div class="card">
                     <h4>Page heading <small>secondary text</small></h4>
-                    <img src="flex.jpeg" class="card-img-top" alt="..." />
+                    <img src="http://placehold.it/750x300" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h4 class="card-title">Post title</h4>
                       <p class="card-text">
@@ -378,14 +377,13 @@
                       <small class="text-muted">Posted on january 10, 2020 by <a href="">Admin</a></small>
                     </div>
                   </div>
-                </div>
+                
            
           
-                <div class="d-flex col-md-8 mb-3align-items-center boxing ">
           
                   <div class="card">
                     <h4>Page heading <small>secondary text</small></h4>
-                    <img src="flex.jpeg" class="card-img-top" alt="..." />
+                    <img src="http://placehold.it/750x300" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h4 class="card-title">Post title</h4>
                       <p class="card-text">
@@ -402,58 +400,46 @@
                 </div>
                      
                     
-                <div class="col md-4" >
-                  <div class="row h-100 ">
-          
-                    <div class="col-sm-12 mb-3 d-flex justify-content-start">
-                      <div class="card border-primary " style="max-width: 18rem">
-                        <div class="card-header"><strong>Find in my blog</strong> 
-                        
+                <div class="col-sm-12 col-md-4" >                  
+                      <div class="card mb-3 border-primary ">
+                        <div class="card-header">
+                          <h6>Find in my blog </h6> 
                         </div>
                         <div class="card-body">
+                          <div class="input-group"> <!-- This is a bootstrap class for input-->
                           <input class="card-text border-primary " type="text"maxlength="8" size="15" placeholder="search for...">
-                          <button type="button" class="btn btn-secondary btn-sm ">Search!</button>
+                          <button type="button" class="btn btn-secondary form-control btn-sm ">Search!</button> <!-- form-control class this is a bootstrap class to use in forms-->
                         </div>
+                      </div>
+                      </div>
+                    
+          
+                      <div class="card mb-3 border-primary ">
+                        <div class="card-header">
+                          <h5>
+                            Catogories</h5>
+                        </div>
+                        <div class="card-body text-primary">
+                          <div class="row">
+                            <div class="col">
+                              <a href="" class="d-block">Web Designing </a>
+                              <a href="" class="d-block">HTML</a>
+                              <a href="" class="d-block">CSS</a>
+                            </div>
+                            <div class="col">
+                              <a href="" class="d-block">JavaScript</a>
+                              <a href="" class="d-block">SAAS</a>
+                              <a href="" class="d-block">Bootstrap4</a>
+                            </div>
+                          </div>
+
+
+                          
+                        
                       </div>
                     </div>
           
-                    <div class="col-sm-12 mb-3 d-flex"> 
-                      <div class="card border-primary" style="max-width: 18rem">
-                        <div class="card-header"><strong>Catogories</strong></div>
-                        <div class="card-body text-primary">
-                          
-                          <div class="container">
-                            <div class="row">
-                              <div class="col md-8" >
-                                <div class="row h-100">
-                                 <div class="col-sm-12 d-flex justify-content-start">
-                                  <p class="card-text"></p>
-                                  web-design <br /> HTML <br />CSS
-                                  
-                                   </p>
-                                  </div>
-                                </div>
-                                </div>
-
-                                <div class="col md-8" >
-                                  <div class="row h-100">
-                                    <div class="col-sm-12 d-flex justify-content-start">
-                                      <p class="card-text"></p>
-                                      JavaScript <br /> SAAS <br />Bootsttrap4
-                                    </p>
-                                    </div>
-                                    </div>
-                                    </div>
-                            </div>
-                            </div>
-
-                          
-                        </div>
-                      </div>
-                     </div>
-          
-                     <div class="col-sm-12  d-flex"> 
-                      <div class="card border-primary" style="max-width: 18rem">
+                      <div class="card mb-3 border-primary ">
                         <div class="card-header"><strong>Widgets</strong></div>
                         <div class="card-body text-primary">
                           <p class="card-text">
@@ -461,7 +447,6 @@
                           </p>
                         </div>
                       </div>
-                     </div>
           
                   </div>
                 </div>
@@ -473,6 +458,34 @@
                </div>
               </div>
             </div>
+
+          <!-- /.blog-post -->
+          <div class="container">
+         <div class="d-flex justify-content-around mt-3">
+          <nav class="blog-pagination">
+            <a class="btn btn-outline-primary" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+              </svg>
+              Older</a>
+            <a
+              class="btn btn-outline-secondary disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Newer
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
+              </a
+            >
+          </nav>
+        </div>
+      </div>
+
+
+        </div>
+
           </div>
         </div>
       </div>

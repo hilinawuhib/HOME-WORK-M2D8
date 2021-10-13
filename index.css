@@ -81,7 +81,12 @@ h5 {
 .jumbotron .container {
   max-width: 40rem;
 }
-
+.sideCard{
+  
+  text-align: center;
+  top: 0;
+  z-index: 9;
+}
 
 footer {
   padding-top: 3rem;

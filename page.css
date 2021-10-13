@@ -10,7 +10,10 @@
       padding-bottom: 6rem;
     }
   }
-  
+  #navbarHeader{
+background-color: rgb(0, 132, 255);
+
+  }
   .jumbotron p:last-child {
     margin-bottom: 0;
   }

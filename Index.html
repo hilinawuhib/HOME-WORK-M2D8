@@ -77,6 +77,12 @@
       padding-bottom: 6rem;
     }
   }
+  #fBox{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
   
   .jumbotron p:last-child {
     margin-bottom: 0;
@@ -207,9 +213,6 @@
 
         </div>
         </div>
-<<<<<<< HEAD
-
-=======
         <header>
             <div class="collapse bg-dark" id="navbarHeader">
               <div class="container">
@@ -290,6 +293,8 @@
                         </div>
                       </div>
                     </div>
+                    
+                    
           
                               <div class="col-md-4">
                       <div class="card mb-4 shadow-sm">
@@ -400,74 +405,98 @@
           </main>
           <h2>Exercise 4</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius itaque inventore at ducimus porro impedit, animi aspernatur, voluptates vitae sunt consequatur ullam laboriosam cupiditate nostrum quod fugiat iusto adipisci nulla?</p>
-          <div class="card-deck">
-            <div class="card">
+          <div class="container">
+            <div class="card-deck">
+              <div class="card">
                 <h4>Page heading <small>secondary text</small></h4>
-              <img src="flex.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Post title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural 
-                    lead-in to additional content. This content is a little bit longer.
-                </p>
-                <button class="btn btn-primary">Read more</button>
+                <img src="flex.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Post title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <button class="btn btn-primary">Read more</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"
+                    >Posted on january 10, 2020 by <a href="">Admin</a></small
+                  >
+                </div>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-    
-            <div class="card">
+
+              <div class="card">
                 <h4>Page heading <small>secondary text</small></h4>
-    
-              <img src="flex.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Post title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-    
+
+                <img src="flex.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body" id="fBox">
+                  <h5 class="card-title">Post title</h5>
+                  <p class="card-text">
+                    This card has supporting text below as a natural lead-in to
+                    additional content.
+                  </p>
+                  <button class="btn btn-primary">Read more</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"
+                    >Posted on january 10, 2020 by <a href="">Admin</a></small
+                  >
+                </div>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </div>
-            </div>
-    
-            <div class="card">
+              <div class="card">
                 <h4>Page heading <small>secondary text</small></h4>
-    
-              <img src="flex.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Post title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+
+                <img src="flex.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Post title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This card has even longer
+                    content than the first to show that equal height action.
+                  </p>
+                  <button class="btn btn-primary">Read more</button>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted"
+                    >Posted on january 10, 2020 by <a href="">Admin</a></small
+                  >
+                </div>
               </div>
             </div>
           </div>
-          <div class="card border-primary mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
+
+          <div class="card border-primary mb-3" style="max-width: 18rem">
+            <div class="card-header"><strong>Find in my blog</strong> </div>
             <div class="card-body text-primary">
               <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
             </div>
           </div>
-          <div class="card border-primary mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
+          <div class="card border-primary mb-3" style="max-width: 18rem">
+            <div class="card-header"><strong>Catogories</strong></div>
             <div class="card-body text-primary">
-              <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">
+                web-design <br/> HTML <br/>CSS
+              </p>
             </div>
           </div>
-          <div class="card border-primary mb-3" style="max-width: 18rem;">
-            <div class="card-header">Header</div>
+          <div class="card border-primary mb-3" style="max-width: 18rem">
+            <div class="card-header"><strong>Widgets</strong></div>
             <div class="card-body text-primary">
-              <h5 class="card-title">Primary card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">
+                usually here you can put all your customwidgets to enhance the user experience.
+              </p>
             </div>
           </div>
-    
-    
-        </div> 
-    </div>
+        </div>
+      </div>
+          
+          
+         
           
           <footer class="text-muted">
             <div class="container">
@@ -481,7 +510,6 @@
           
           
         
->>>>>>> 364a20ac673fff056571336c1bc6be2b64e0b977
             <!-- Exercise 3 -->
 
         <div> 

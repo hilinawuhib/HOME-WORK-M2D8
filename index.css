@@ -9,6 +9,12 @@ p {
 h5 {
   text-align: center;
 }
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .container {
   width: 100%;
 }
@@ -59,6 +65,10 @@ h5 {
   flex-direction: column;
   align-content: flex-start;
 }
+.cardbox{
+  flex-direction: column;
+  align-content: flex-start;
+}
 
 .jumbotron p:last-child {
   margin-bottom: 0;
@@ -72,6 +82,7 @@ h5 {
   max-width: 40rem;
 }
 
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -80,3 +91,5 @@ footer {
 footer p {
   margin-bottom: 0.25rem;
 }
+
+
